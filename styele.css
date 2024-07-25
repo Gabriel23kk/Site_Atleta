@@ -27,15 +27,22 @@ main{
     display: flex;
 }
 
-main #texto{
-
+#texto{
     position: relative;
     left: 10%;
     width: 35%;
-    height: 20%;
+    height: 3em;
     margin-top: 15%;
-    border: solid 3px gray;
-    border-radius: 15px;
+    text-align: center;
+}
+
+#texto2{
+    position: relative;
+    left: -10%;
+    width: 35%;
+    height: 3em;
+    margin-top: 20%;
+    text-align: center;
 }
 
 #texto h1{
