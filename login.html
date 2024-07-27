@@ -7,38 +7,29 @@
     <title>Document</title>
 </head>
 <body>
-    <div class="backgroud">
-        <img src="./assets/atleta.png" alt="">
+    
+    <div class="main">
+        <input type="checkbox" id="chk" aria-hidden="true">
+    
+        <div class="signup">
+            <form >
+                <label for="chk" aria-hidden="true">Registrar-se</label>
+                <input type="text" name="txt" placeholder="Seu nome" required>
+                <input type="email" name="email" placeholder="Email" required>
+                <input type="password" name="pswd" placeholder="Senha" required>
+                <button>Registrar-se</button>
+            </form>
+        </div>
+        <div class="login">
+            <form>
+                <label for="chk" aria-hidden="true">Inicio</label>
+                <input type="email" name="email" placeholder="Email">
+                <input type="password" name="pswd" placeholder="Senha">
+                <button>Iniciar</button>
+            </form>
+        </div>
     </div>
-    <header>
-        <div class="logo">
-            <p>logo</p>
-        </div>
-        <div class="allcountry">
-            <p class="pais">brasil</p>
-            <p class="pais">US</p>
-            <p class="pais">ESP</p>
-        </div>
-        
-    </header>
-
-    <div class="Login">
-        <form action="">
-            <label for="">
-                <input type="text" placeholder="Email">
-            </label>
-            <label for="">
-                <input type="text" placeholder="Senha">
-            </label>
-            <button class="button-login">Entrar</button>
-            
-        </form>
-        <div class="registro">
-            <p>Não tem conta?</p> <a href="">Criar conta</a>
-            <a href="">Esqueci minha senha</a>
-        </div>
-        
-    </div>
+    
 
     <section>
         publicidade
