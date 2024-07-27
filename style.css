@@ -6,12 +6,13 @@ body{
 	align-items: center;
 	min-height: 100vh;
 	font-family: 'Jost', sans-serif;
-	background: linear-gradient(to bottom, #0f0c29, #6453fb, #19195b);
+    background: url(https://t3.ftcdn.net/jpg/00/88/49/94/360_F_88499441_LrtJZdMJ0fOvbsWk5e5ArohbcuvIPgxa.jpg);
+    background-size: 100vw 100vh;
 }
 .main{
     width: 350px;
     height: 500px;
-    background: rgb(2, 1, 35);
+    background: rgb(6, 2, 134);
     overflow: hidden;
     border-radius: 10px;
     box-shadow: 5px 20px 50px #000;
@@ -53,7 +54,7 @@ button{
     justify-content: center;
     display: block;
     color: #fff;
-    background: #5757ee;
+    background: #7070ff;
     font-size: 1em;
     font-weight: bold;
     margin-top: 20px;
@@ -64,7 +65,7 @@ button{
     cursor: pointer;
 }
 button:hover{
-	background: #2229ba;
+	background: #4851fc;
 }
 .login{
     height: 460px;
