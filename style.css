@@ -8,9 +8,10 @@ body{
 }
 
 header{
+
     position: relative;
     display: flex;
-    gap: 8px;
+    gap: 8.1px;
     top: 1em;
     float: right;
     right: 1%;
