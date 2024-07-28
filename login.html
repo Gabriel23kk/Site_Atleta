@@ -6,36 +6,48 @@
     <link href="style.css" rel="stylesheet">
     <title>Document</title>
 </head>
-<body>
-    <div class="backgroud">
-        <img src="./assets/atleta.png" alt="">
-    </div>
+<body class="corpo">
     <header>
-        <div class="logo">
-            <p>logo</p>
-        </div>
-        <div csslass="allcoutry">
-            <p>brasil</p>
-            <p>US</p>
-            <p>ESP</p>
-        </div>
-        
+        <img src="./assets/bandeira-do-brasil.png" width="30px">
+        <img src="./assets/us.png" width="30px">
+        <img src="./assets/ESP.webp" width="30px">
     </header>
-
-    <div class="Login">
-        <label for="">
-            <input type="text" placeholder="Email">
-        </label>
-        <label for="">
-            <input type="text" placeholder="Senha">
-        </label>
-        <button>Entrar</button>
-        <p>Não tem conta?</p> <a href="">Criar conta</a>
-        <a href="">Esqueci minha senha</a>
+    
+    <div class="main">
+        <input type="checkbox" id="chk" aria-hidden="true">
+    
+        <div class="signup">
+            <form >
+                <label for="chk" aria-hidden="true">Registrar-se</label>
+                <input type="text" name="txt" placeholder="Seu nome" required>
+                <input type="email" name="email" placeholder="Email" required>
+                <input type="password" name="pswd" placeholder="Senha" required>
+                <button>Registrar-se</button>
+            </form>
+        </div>
+        <div class="login">
+            <form>
+                <label for="chk" aria-hidden="true">Inicio</label>
+                <input type="email" name="email" placeholder="Email">
+                <input type="password" name="pswd" placeholder="Senha">
+                <button>Iniciar</button>
+                <a class="recover">Esqueceu sua senha?</a>
+            </form>
+        </div>
     </div>
+    <div class="rocover-box">
+        <form>
+            <img src="data:image/png;base64,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"
+            class="close-recover">
+            <input type="email" name="email" placeholder="Digite o email cadastrado">
+            <button>Enviar Código</button>
+        </form>
+    </div>
+    
 
     <section>
         publicidade
     </section>
 </body>
+<script src="./script.js"></script>
 </html>

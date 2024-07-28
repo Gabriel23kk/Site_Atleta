@@ -1,16 +1,175 @@
-*{
+body{
     margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+	padding: 0;
+	min-height: 100vh;
+	font-family: 'Jost', sans-serif;
+    background: url(https://t3.ftcdn.net/jpg/00/88/49/94/360_F_88499441_LrtJZdMJ0fOvbsWk5e5ArohbcuvIPgxa.jpg);
+    background-size: 100vw 100vh;
 }
-.backgroud img{
-    z-index: -2;
-    width: 100%;
-    height: 100%;
-    position: fixed;
-    background-size: cover;
+
+header{
+
+    position: relative;
+    display: flex;
+    gap: 8.1px;
+    top: 1em;
+    float: right;
+    right: 1%;
     
 }
-.logo, .allcoutry {
-    display: inline;
+header img{
+    cursor: pointer;
+}
+
+.main{
+    width: 350px;
+    height: 500px;
+    background-color: transparent;
+    backdrop-filter: blur(10px);
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 5px 20px 50px #000;
+    position: relative;
+    left: 35%;
+    top: 5em;
+}
+#chk{
+    display: none;
+}
+.signup{
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+label{
+    color: #fff;
+    font-size: 2.3em;
+    justify-content: center;
+    display: flex;
+    margin: 60px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: .5s ease-in-out;
+}
+input{
+    width: 60%;
+    height: 60%;
+    background: #e0dede;
+    cursor: pointer;
+    display: flex;
+    margin: 20px auto;
+    padding: 10px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+}
+button{
+    width: 60%;
+    height: 40px;
+    margin: 10px auto;
+    justify-content: center;
+    display: block;
+    color: #fff;
+    background: #7070ff;
+    font-size: 1em;
+    font-weight: bold;
+    margin-top: 20px;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    transition: .2s ease-in;
+    cursor: pointer;
+}
+button:hover{
+	background: #4851fc;
+}
+.login{
+    height: 460px;
+    background: #0101a1;
+    border-radius: 60% / 10%;
+    transform: translateY(-180px);
+    transition: .8s ease-in-out;
+}
+a{
+    color: #5a5959;
+    position: relative;
+    left: 20%;
+    top: 15%;
+    cursor: pointer;
+}
+.login label{
+    color: #f3f2f7;
+    transform: scale(.6);
+}
+#chk:checked ~ .login{
+	transform: translateY(-500px);
+}
+#chk:checked ~ .login label{
+	transform: scale(1);	
+}
+#chk:checked ~ .signup label{
+	transform: scale(.6);
+}
+.rocover-box{
+    position: relative;
+    display: block;
+    margin: 0 auto;
+    padding-top: 2%;
+    bottom: 15em;
+    width: 28vw;
+    height: 25vh;
+    background: #423ffc;
+    background-size: 100vw 100vh;
+    border-radius: 10px;
+    visibility: hidden;  
+}
+.rocover-box form img{
+    width: 2vw;
+    display: flex;
+    float: right;
+    position: relative;
+    bottom: 2.4em;
+    right: 1em;
+}
+.recover-animation{
+    animation: apper 1s ease-in-out;
+}
+.rocover-box input{
+    width: 80%;
+    height: 60%;
+    background: #e0dede;
+    cursor: pointer;
+    display: flex;
+    margin: 20px auto;
+    padding: 10px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+}
+
+@keyframes apper {
+    from {
+        opacity: 0;
+        translate: 0 -150vh;
+    }
+    to {
+        opacity: 1;
+        translate: 0 0;
+    }
+}
+.close-recover{
+    cursor: pointer;
+}
+.close{
+    animation: ToGoOut 1s ease-in-out;
+}
+@keyframes ToGoOut {
+    from {
+        opacity: 0;
+        translate: 0 0;
+    }
+    to {
+        opacity: 1;
+        translate: 0 150vh;
+    }
 }
