@@ -1,12 +1,12 @@
 body{
     margin: 0;
 	padding: 0;
-	
 	min-height: 100vh;
 	font-family: 'Jost', sans-serif;
     background: url(https://t3.ftcdn.net/jpg/00/88/49/94/360_F_88499441_LrtJZdMJ0fOvbsWk5e5ArohbcuvIPgxa.jpg);
     background-size: 100vw 100vh;
 }
+
 header{
     position: relative;
     display: flex;
@@ -94,7 +94,7 @@ a{
     position: relative;
     left: 20%;
     top: 15%;
-
+    cursor: pointer;
 }
 .login label{
     color: #f3f2f7;
@@ -108,4 +108,67 @@ a{
 }
 #chk:checked ~ .signup label{
 	transform: scale(.6);
+}
+.rocover-box{
+    position: relative;
+    display: block;
+    margin: 0 auto;
+    padding-top: 2%;
+    bottom: 15em;
+    width: 28vw;
+    height: 25vh;
+    background: #423ffc;
+    background-size: 100vw 100vh;
+    border-radius: 10px;
+    visibility: hidden;  
+}
+.rocover-box form img{
+    width: 2vw;
+    display: flex;
+    float: right;
+    position: relative;
+    bottom: 2.4em;
+    right: 1em;
+}
+.recover-animation{
+    animation: apper 1s ease-in-out;
+}
+.rocover-box input{
+    width: 80%;
+    height: 60%;
+    background: #e0dede;
+    cursor: pointer;
+    display: flex;
+    margin: 20px auto;
+    padding: 10px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+}
+
+@keyframes apper {
+    from {
+        opacity: 0;
+        translate: 0 -150vh;
+    }
+    to {
+        opacity: 1;
+        translate: 0 0;
+    }
+}
+.close-recover{
+    cursor: pointer;
+}
+.close{
+    animation: ToGoOut 1s ease-in-out;
+}
+@keyframes ToGoOut {
+    from {
+        opacity: 0;
+        translate: 0 0;
+    }
+    to {
+        opacity: 1;
+        translate: 0 150vh;
+    }
 }
