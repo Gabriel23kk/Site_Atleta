@@ -7,8 +7,9 @@ const login = document.querySelector(".login")
 
 Torecover.addEventListener('click',recuperar)
 function recuperar(){
-    recoverBox.style.visibility = "visible";
     recoverBox.classList.add('recover-animation');
+    recoverBox.style.visibility = "visible";
+    
 //     backgroudBlur.style.backdropFilter = "blur(15px)"
 //     Menu.style.backdropFilter = "blur(16px)"
 //     login.style.backdropFilter = "blur(17px)"
