@@ -10,28 +10,19 @@ body{
 
 header{
     color: white;
-    display: inline-block;
+    display: flex;
+    align-items: center;
+    gap: 4em;
     background-color: aqua;
     height: 75px;
     width: 100%;
     padding: 20px 0;
 }
 
-nav{
-    position: absolute;
-    display: inline-flex;
-    align-content: flex-end;
-    width: 90%; 
-}
-
-nav li{
-    display: inline;
-    margin: 0 0 0 15px;
-}
-
-ul{
-    width: 4em;
-    justify-self: right;
+header a{
+    position: relative;
+    align-self: center;
+    left: 25em;
 }
 
 main{
@@ -46,7 +37,7 @@ main{
 
 #texto{
     position: relative;
-    left: 17%;
+    left: 15%;
     width: 30%;
     height: 3em;
     margin-top: 15%;
