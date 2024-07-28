@@ -1,14 +1,25 @@
 body{
     margin: 0;
 	padding: 0;
-	display: flex;
-	justify-content: center;
-	align-items: center;
+	
 	min-height: 100vh;
 	font-family: 'Jost', sans-serif;
     background: url(https://t3.ftcdn.net/jpg/00/88/49/94/360_F_88499441_LrtJZdMJ0fOvbsWk5e5ArohbcuvIPgxa.jpg);
     background-size: 100vw 100vh;
 }
+header{
+    position: relative;
+    display: flex;
+    gap: 8px;
+    top: 1em;
+    float: right;
+    right: 1%;
+    
+}
+header img{
+    cursor: pointer;
+}
+
 .main{
     width: 350px;
     height: 500px;
@@ -16,6 +27,9 @@ body{
     overflow: hidden;
     border-radius: 10px;
     box-shadow: 5px 20px 50px #000;
+    position: relative;
+    left: 35%;
+    top: 5em;
 }
 #chk{
     display: none;
@@ -73,6 +87,13 @@ button:hover{
     border-radius: 60% / 10%;
     transform: translateY(-180px);
     transition: .8s ease-in-out;
+}
+a{
+    color: #5a5959;
+    position: relative;
+    left: 20%;
+    top: 15%;
+
 }
 .login label{
     color: #2b24b7;
