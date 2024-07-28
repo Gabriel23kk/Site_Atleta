@@ -23,7 +23,8 @@ header img{
 .main{
     width: 350px;
     height: 500px;
-    background: rgb(6, 2, 134);
+    background-color: transparent;
+    backdrop-filter: blur(10px);
     overflow: hidden;
     border-radius: 10px;
     box-shadow: 5px 20px 50px #000;
@@ -83,7 +84,7 @@ button:hover{
 }
 .login{
     height: 460px;
-    background: #eee;
+    background: #0101a1;
     border-radius: 60% / 10%;
     transform: translateY(-180px);
     transition: .8s ease-in-out;
@@ -96,7 +97,7 @@ a{
 
 }
 .login label{
-    color: #2b24b7;
+    color: #f3f2f7;
     transform: scale(.6);
 }
 #chk:checked ~ .login{
