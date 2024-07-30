@@ -2,8 +2,8 @@ const Torecover = document.querySelector(".recover");
 const recoverBox = document.querySelector(".rocover-box");
 const imgClose = document.querySelector(".close-recover");
 const backgroudBlur = document.querySelector(".corpo")
-const Menu = document.querySelector(".signup")
-const login = document.querySelector(".login")
+const Menu = document.querySelector(".signup");
+const login = document.querySelector(".login");
 
 Torecover.addEventListener('click',recuperar)
 function recuperar(){
