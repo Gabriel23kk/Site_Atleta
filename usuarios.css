@@ -18,7 +18,7 @@ input{
     height: 5.9vh;
     width: 20vw;
     position: relative;
-    left: 4em;
+    left: 8em;
     top: .8em;
     border-radius: 10px;
     padding-left: 15px;
@@ -29,7 +29,7 @@ input{
     position: relative;
     top: 1.3em;
     width: 25px;
-    left: 4em;
+    left: 8em;
     cursor: pointer;
 }
 .icons{
@@ -57,11 +57,34 @@ main h1{
     gap: 20px;
 }
 main .dono-da-conta img{
-    height: 18vh;
-    width: 12vw;
+    height: 20vh;
+    width: 10vw;
     position: relative;
-    left: 2em;
+    left: 4em;
+
 }
+.dono-da-conta input{
+    position: relative;
+    left: 0.1em;
+}
+.dono-da-conta button{
+    position: relative;
+    top: 1.5em;
+    height: 2.5em;
+    border-radius: 10px;
+    border: none;
+    background-color: #423ffc;
+    cursor: pointer;
+}
+.dono-da-conta button:hover{
+    background-color: #6563fb;
+    font-size: 0.9em;
+}
+.dono-da-conta button:active{
+    background-color: #8d8bfe;
+    font-size: 0.9em;
+}
+
 
 
 
