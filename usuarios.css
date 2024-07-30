@@ -85,11 +85,103 @@ main .dono-da-conta img{
     font-size: 0.9em;
 }
 .configuracao-da-conta{
-    width: 20vw;
+    width: 22vw;
+    height: 52vh;
     position: relative;
     left: 23em;
     bottom: 28em;
-    background-color: aliceblue;
+    background-color: rgb(211, 230, 247);
+    border-radius: 10px;
+    padding-top: 0.5em;
+    visibility: visible;
+    
+}
+.acc-1{
+    display: flex;
+}
+.acc-1 p{
+    position: relative;
+    left: 5em;
+}
+.acc-1 button {
+    width: 2.5em;
+    height: 2.5em;
+    border-radius: 15px;
+    border: none;
+    position: relative;
+    left: 15em;
+}
+.acc-2{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    left: 5em;
+    
+}
+.acc-2 img{
+    height: 15vh;
+    width: 8vw;
+    object-fit: contain;
+}
+.acc-2 p{
+    position: relative;
+    left: 0.8em;
+    top: 0.5em;
+}
+.log-out{
+    object-fit: cover;
+    height: 5vh;
+}
+.acc-3  .button-adc-acc{
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border: none;
+    
+    padding-bottom: 1em;
+    padding-right: 1em;
+}
+.acc-3  .button-adc-acc img{
+    position: relative;
+    top: 0.8em;
+    margin-right: 0.3em;
+    margin-left: 0.3em;
+}
+
+.acc-3 .button-log-out{
+    width: 9em;
+   border-bottom-right-radius: 10px;
+   border-top-right-radius: 10px;
+   border: none;
+   cursor: pointer;
+   padding-bottom: 1em;
+}
+.acc-3 .button-log-out img{
+    position: relative;
+    top: 0.7em;
+    right: 1em;
+}
+.acc-3{
+    display: inline-flex;
+    position: relative;
+    top: 4em;
+    gap: 0.2em;
+    left: 0.5em;
+}
+.config-acc{
+    position: relative;
+    top: 2.5em;
+    left: 4.6em;
+    width: 10em;
+    height: 2.5em;
+    border-radius: 10px;
+    border: 1px solid #0000ff;
+}
+.abrir{
+    width: 22vw;;
+}
+.Close {
+    overflow: hidden;
+    width: 0;
 }
 
 
