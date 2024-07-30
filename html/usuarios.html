@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/usuarios.css">
     <title>Usuarios</title>
 </head>
 <body>
@@ -11,13 +12,33 @@
         <div>
 
         </div>
-        <div>
+        <div class="input-pesquisa">
             <input type="text" placeholder="Pesquisar usuários">
-            <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAACXBIWXMAAAsTAAALEwEAmpwYAAABJUlEQVR4nL3USytGURTG8Z/LABmaMZOMSGHkllI+A2NJRoSpTJWZfAK5zFxiTilTGcicKIXc5RK9tdSbyzmH3jyjs1vP+p+19l5780+qwxQ2sIsVjKDqt6BSzOAZbzjBPs5jfYWBrLAiLEfiOhrzYsXowV7EJ7IAh8I8G/DvVIEtvKIlCVaMYxxE20mqxh3WkkytUV1u47NoAQ8o+8nQH8DOjMCx8Nf9ZOgLQ1dG4Hj469NaHs0IXMQjypMO5QiHGQ6lBvdYTfvrYFQ5lzI223hBcxqwCEsB3URTXqwEvXFr3mJs2tOAH4nTeIrE04BcxvoCt/F9gw4ZVYvJeBx2MI9hVMZo/QmapDZc57XfrQD6XGlnIaAflZ6hoRDAnHJ7WDDYF70DDjJL5WzHnx0AAAAASUVORK5CYII=">
+            <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAACXBIWXMAAAsTAAALEwEAmpwYAAABJUlEQVR4nL3USytGURTG8Z/LABmaMZOMSGHkllI+A2NJRoSpTJWZfAK5zFxiTilTGcicKIXc5RK9tdSbyzmH3jyjs1vP+p+19l5780+qwxQ2sIsVjKDqt6BSzOAZbzjBPs5jfYWBrLAiLEfiOhrzYsXowV7EJ7IAh8I8G/DvVIEtvKIlCVaMYxxE20mqxh3WkkytUV1u47NoAQ8o+8nQH8DOjMCx8Nf9ZOgLQ1dG4Hj469NaHs0IXMQjypMO5QiHGQ6lBvdYTfvrYFQ5lzI223hBcxqwCEsB3URTXqwEvXFr3mJs2tOAH4nTeIrE04BcxvoCt/F9gw4ZVYvJeBx2MI9hVMZo/QmapDZc57XfrQD6XGlnIaAflZ6hoRDAnHJ7WDDYF70DDjJL5WzHnx0AAAAASUVORK5CYII="
+            class="lupa">
         </div>
-        <div>
-            
+        <div class="icons">
+            <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAACXBIWXMAAAsTAAALEwEAmpwYAAABsklEQVR4nO3WvWsUYRDH8U9MFInx5cQ0WthEEFGJhRBBNIVFCgsLCwmpRPwDbOytrAKSQuwU24CQQhCb1KkEQQtFC0ELwReUGIhmwxNm5WFZL5dNPBFu4Ae7O8/M93lm5jmO/9DGQl21KSxiCde6AdyOGRQVzYSvtHO4kGl4M9AUPJ/B7ofK9/kM8KGysUtNoaN4G0l+4mbmu47l8L3D6a0CT0Y/U4LPmMA23MKNWDMRviLrfWNwP25nwa9wDHvwKPt+B304ghc1/d8QeD+eZIHpuYWjeFmT+AEGYlNzTcHH8ToLmo7TX8H3P5yoiCrsjLXTFd/UetCL+BqLU5+uZiVfaQPNJ3tvzWx8w+U6YF9M6q9Y+BHncQBPOwDmeo6DkfdMNuErcYA0mGu2uzIsz3AYp7IrtFG9wUjkP4SFzPcY+8pdleV9iMEo8Y+G0FLvcTLgg5E7ff8SzDUbip3twN1NAnOlu302a2li7Krr9XgHyVJ1PlVUVqxOizG0ba0TcPr5rNroOjHLOPEvwEXk7oF/W6/URW+4MIt7Fc124zoVDTXeDtyq/C3dSrXagXvmb9kqx9CJZwYmEogAAAAASUVORK5CYII=">
+            <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAACXBIWXMAAAsTAAALEwEAmpwYAAABS0lEQVR4nN2UTUpDMRSFPyotdOIedK51Fx1aqrar0IFO3YDWeV2AdA/iMhzYWnUDjvwBleJ7cuEUHs9ckzjsgQMhOfckufcmsOpoAUNgAkyBd3GquYE0/8Ie8AiUET4A/RzjNeAiYFQAM7EIrI+ARsoGIfMpsF3RdLRRXXeekpZ60LcM6+g4N+l55i3lM3R6D6FbPHmFHzpFnGVuYDwIiSeOuHBStOOkyHiVc5pSa52a+f0f+mBaXyP9XkTatErz+oW3hEdVJvIlN0VlJu9Si/wMjPU+NoC2uKm5S2mSijyoCBbAqcxiaEu7qMTvxx7aNfm4UewcaHqivkQfQDfDvKsYi92NiUcSfgKH+l092NoR8KWYs5TTNPQrLvN5CxwDW8C6aOMTrZUV86Tveome8hlryXlKWjw09XFZ21lv22M02tjmrFvcgq4GfgBR6t/agCZkgwAAAABJRU5ErkJggg==">
+            <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAACXBIWXMAAAsTAAALEwEAmpwYAAABRklEQVR4nO2WvU7DMBCAUwmQimCB94Cpb1Ah0TKCYIKJPgAM7VhGECM8DGIjC38DMMJG2xmpUAkk4ENHD2RFbhTsmC75pvhs3+c4PsVRVDBugBh/4nGJz1zf2gsnqfBvYqAOXAID4MZXrDkGmrM2SrpCeGo28ZV2NoEZYC8HUVtztbR9YRO/aOectkvAiYdU5pY017zGnm1i+Q7CvhHb8BCvG3kONHZuEy8BHzrgCJgGZoG+g7SvWyw5jjX2DlRHHbAt4E0H3gOrwKGDWOasAQ/afgU2UwrqW74I3BlJeg7irvF8CyykSg35JNBIJHCRbwMTmaSJBUzplp0CnxmF17ro8p+FNoAK8JQilL5KFAKGJ19OZxKphnoQ6Q/ArkW88zugwBeGv8y08uoAyyHEnQyl9BhCnIm8pTEhb5Y5id1ulgVRIL4AhFWwCBkZsdQAAAAASUVORK5CYII=">
+            <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAACXBIWXMAAAsTAAALEwEAmpwYAAACUUlEQVR4nO2ZzU4UQRDHJ8pBIiaCmPB11ZvxAmjiAeQRCCG+hF5XiUfUKxsgngmJHvyAsB71ISC8AMgBXOAqGJOfqVgmG5OFmuqeniXML+lkM7tTXTXT3VX13yyrqKgIBrgCPATmgE/ANnAM/NJxrNc+Ai+AB3JPVjbACPAG2CM/34HXwHAZjt8C3gKnhHMCLAN9qZx/AhwSnyYwW6TjXfrUi2ZJ5ortfDfQIB0bMmcs568Cn0lPI8qbSLRs2rEYY8OWzUzIUek9bdaBCeC6jkld1x5+AL0pl07tDJuSqYtfSvzNsJ4ktW6w3XAmu6E8AUh54GHCYPux0/arPIXZrnOSHoP9G07be3KkWwKQqpIODEAYtwTg3WjCpMH+VID9miUAqee9bBjsfwmw/8ESgDQeIcydYftloO0tSwBHhNPQ06ZHx1Tgk/9H0xJAjCalKE4uRQBHdC7NFJu4SLZiH6PvgP5zjbafqx94H/sYFd3Gitv5lvlux05kIjpZ6YokFlgZtRZzIjpZuBchgPvGuXbMap4qZhZWIgSwapxrPo/RYW0i4qzL8P32M1dDo8ZF7rOyBtzJYfuu3mOl7m3qRe6z8hv4CjwFHgEDwDUdA3rtGfBNf2vlwNXUaxCzlM+0y/mWIESrLIuFIOdbpMWQJqdcabFF3PUKU15hrDuLiWbMxQTO103qQ0AgM3oyxGY/eMPmCKJX34Y12Z2XpOrAzSTO/xfIkChmTiFMapt5YDC5420KwHHgudTs0nhoZ3eqQz5v6nc1YKwj/matqMguPn8ANZ6scvmkyNYAAAAASUVORK5CYII="
+            class="user">
         </div>
     </header>
+    <main>
+        <h1>PESQUISA DE REGIÕES</h1>
+        <div class="dono-da-conta">
+            <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAACXBIWXMAAAsTAAALEwEAmpwYAAAEVUlEQVR4nM2aW4iVVRTHf8dxRlMCL9lD6hgl5aVCKggLw6KHoAcLJg3FFEFEBH2JyAu99NZDdJm0i4qjXaEHK4tS9El99EUx8i4RZONMUUGNczmxhnVkt9rf2ZfvnJn5w4LD3mevtf/fXnvttfb3QePQDqwFOoEjwHmgF7ih0qtth/U/a4DZjBHMAXYAPwDVTDkLbFddI477gf3AQAkCVgaBr4GHR4LA7UAXMBQxsX6gB7io0qNtoXFDwF5gRrNIrFA/L5rABeBdYDlwL9Dq0dGqfaJrpxIs0tcDdDSSQBuwq8CYbOJ9wGNAJUN3Rcd2qa6qRzoLHkoSJgPfFSx/V4M36J3AgQK3/Vbnkk3ipEfpZeDxiPG3qBvNAsYn2F0KXPHYPZFDpq1gJb4EpgTGPgMcNU/2N2APcEek/WnAoYKVSXIz3554H2gJ+PtbgYgkq7kZ2AIsCMyhBdjt0fFOLIkVBSRCm/mljHPj5YDOSgGZjphzwobYrwIrIbinTtQJnRlPBHSPB77xhObb6g3qMgOuqr+G8HYGiZocjNA/Vd3SHScr5cUis0GHIqNTi27mXCJ9wK0Rdp70rKakSv/D5+aPsjoxWFCCRE0eibT1iRn3qe8wGnT+cCPhsFvZACKrIm3dZfK1AS0fbmKHUSxpRyzWNYDIhgR7B8zYbW6nrSck/4nF6gYQ2ZRgb4kZe6bW0e7JYiuJKUVZIuKesah4IpikQcPlqdsoqXgKJgbS+xh5NNHme2b8i+iR7zY+n6h0OvBrSSIPJdp8wYyX1Gj4MsBtnJeo1Mb3HAmlKqGQLwnuf6q0/owiZt4oEGkz9wVyO8N1p6GbdMjm+6Ukkacy7F638+5zGi6Rh9dLkPhJA0Yq3Mj1T6OIyIY/l0FCsolnM21etkTcJbpGPqaYhxIjr5aw121dy2522Ui5sBGwnvTXDrIMTPBtdmtciqRcLEsgIjeVuZjvC7/2QJRSNxcSwY5FkPjDZq2JWOk7ENd4LsTK4O4GZ7sxKcpqX9J4JfPW0N309e6GB9THczFOQ7arc2at86zpWFzCkHVVn0hZnYslRtdpt3O76fwoUflcYGNC1JIa/zV9YKEbGovPjK5X3M45Jpz1aflbDzO0sryUeHZY6dXJSfIZ88BsqTs7xPTjAmUS+z8E/i5JwCentH6XfeDDFzFzfMBzHWSf0nrgzyYQsHJSn76Lpz3pzcKipdvriWByOSZ4YwQIVB353blXk1zuZ9P/AQG/7/GcmltGmERVRVb/Pr3dr5rcSsjVRYdHYcw7w2bJX565PEckOkdx4tWAvEkCWvWlSnWMyaHEt1/DmKyvu6pjRI4Dk8jEJM+7idGQw5E39kE3i8mfmiFDuieS3SkUzWxobqZ0p0SnVEzTImawyauwv5mfcLhYqMZivi1J/ajmQUYB7fp+4kwJAlJPbB1L327N0ltxeTH6PfCj7ikpCUTkt7RJyiPuKeXpzcquLP4FPJ6h9y1HfQEAAAAASUVORK5CYII="
+            class="foto-do-usuario">
+            <input type="text" placeholder="Cidade/Estado/País">
+            <input type="text" placeholder="Nome do local">
+            <input type="text" placeholder="Data">
+            <button>Pesquisar</button>
+        </div>
+        <div class="configuracao-da-conta">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit quidem voluptas reiciendis! Illo 
+                obcaecati labore doloremque fugiat iusto iure provident aspernatur modi deleniti, quibusdam tempora explicabo soluta quisquam asperiores eaque.</p>
+        </div>
+    </main>
 </body>
 </html>
