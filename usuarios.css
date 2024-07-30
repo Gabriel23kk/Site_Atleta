@@ -84,6 +84,13 @@ main .dono-da-conta img{
     background-color: #8d8bfe;
     font-size: 0.9em;
 }
+.configuracao-da-conta{
+    width: 20vw;
+    position: relative;
+    left: 23em;
+    bottom: 28em;
+    background-color: aliceblue;
+}
 
 
 
