@@ -20,29 +20,30 @@ input{
     height: 5.9vh;
     width: 20vw;
     position: relative;
-    left: 8em;
-    top: .8em;
+    left: 12vh;
+    top: .8vw;
     border-radius: 10px;
     padding-left: 15px;
     border: none;
     outline: none;
+    font-size: 2.3vh;
 }
 .lupa{
     position: relative;
-    top: 1.3em;
-    width: 25px;
-    left: 8em;
+    top: 3vh;
+    width: 2vw;
+    left: 13vh;
     cursor: pointer;
 }
 .icons{
     position: relative;
-    right: 8em;
-    top: 1em;
+    right: 12vh;
+    top: 1.6vw;
 }
 .icons img{
     cursor: pointer;
     width: 4.4vw;
-    padding-left: 1.8em;
+    padding-left: 5vh;
 }
 main{
     display: flex;
@@ -51,28 +52,36 @@ main{
     justify-content: center; 
 }
 main h1{
-    margin: 1.2em;
+    margin: 2vw;
+    position: relative;
+    right: 2.5vw;
 }
 .dono-da-conta{
     display: flex;
     flex-direction: column;
-    gap: 20px;
+    gap: 3vh;
+    position: relative;
+    right: 2vw;
 }
 main .dono-da-conta img{
-    height: 20vh;
     width: 10vw;
+    object-fit: cover;
     position: relative;
-    left: 4em;
+    left: 4vw;
 
 }
 .dono-da-conta input{
     position: relative;
-    left: 0.1em;
+    left: -0.5vw;
+    font-size: 2.3vh;
 }
 .dono-da-conta button{
     position: relative;
-    top: 1.5em;
-    height: 2.5em;
+    width: 15vw;
+    height: 6vh;
+    top: 2vh;
+    left: 2vw;
+    font-size: 20px;
     border-radius: 10px;
     border: none;
     background-color: #423ffc;
@@ -80,21 +89,21 @@ main .dono-da-conta img{
 }
 .dono-da-conta button:hover{
     background-color: #6563fb;
-    font-size: 0.9em;
+    font-size: 2.4vh;
 }
 .dono-da-conta button:active{
     background-color: #8d8bfe;
-    font-size: 0.9em;
+    font-size: 2.4vh;
 }
 .configuracao-da-conta{
-    width: 22vw;
-    height: 52vh;
+    width: 18vw;
+    height: 40vh;
     position: relative;
-    left: 23em;
-    bottom: 28em;
+    left: 35vw;
+    bottom: 70vh;
     background-color: rgb(211, 230, 247);
     border-radius: 10px;
-    padding-top: 0.5em;
+    padding-top: 1vw;
     visibility: visible;
     
 }
@@ -103,32 +112,38 @@ main .dono-da-conta img{
 }
 .acc-1 p{
     position: relative;
-    left: 5em;
+    left: 4vw;
+    font-size: 2.3vh;
 }
 .acc-1 button {
-    width: 2.5em;
-    height: 2.5em;
+    width: 2vw;
+    height: 4vh;
     border-radius: 15px;
     border: none;
     position: relative;
-    left: 15em;
+    left: 12vw;
+    bottom: 1vh;
+    cursor: pointer;
+}
+.acc-1 button{
+    
 }
 .acc-2{
     display: flex;
     flex-direction: column;
     position: relative;
-    left: 5em;
+    left: 5vw;
     
 }
 .acc-2 img{
-    height: 15vh;
+    height: 10vh;
     width: 8vw;
     object-fit: contain;
 }
 .acc-2 p{
     position: relative;
-    left: 0.8em;
-    top: 0.5em;
+    left: 2vw;
+    top: 0.5vw;
 }
 .log-out{
     object-fit: cover;
@@ -138,53 +153,49 @@ main .dono-da-conta img{
     border-top-left-radius: 10px;
     border-bottom-left-radius: 10px;
     border: none;
-    
-    padding-bottom: 1em;
-    padding-right: 1em;
+    font-size: 17px;
+    padding-bottom: 1vw;
+    padding-right: 1vw;
 }
 .acc-3  .button-adc-acc img{
     position: relative;
-    top: 0.8em;
-    margin-right: 0.3em;
-    margin-left: 0.3em;
+    top: 1vh;
+    margin-right: 0.3vw;
+    margin-left: 0.3vw;
 }
 
 .acc-3 .button-log-out{
-    width: 9em;
+    width: 7.5vw;
    border-bottom-right-radius: 10px;
    border-top-right-radius: 10px;
    border: none;
    cursor: pointer;
-   padding-bottom: 1em;
+   padding-bottom: 1.5vh;
 }
 .acc-3 .button-log-out img{
     position: relative;
-    top: 0.7em;
-    right: 1em;
+    top: 0.4vw;
+    right: 3vh;
 }
 .acc-3{
     display: inline-flex;
     position: relative;
-    top: 4em;
-    gap: 0.2em;
-    left: 0.5em;
+    top: 7vh;
+    gap: 0.2vw;
+    left: 0.9vh;
 }
 .config-acc{
     position: relative;
-    top: 2.5em;
-    left: 4.6em;
-    width: 10em;
-    height: 2.5em;
+    top: 3vh;
+    left: 4.9vw;
+    width: 8vw;
+    height: 4vh;
+    font-size: 16px;
+    font-weight: 500;
     border-radius: 10px;
     border: 1px solid #0000ff;
 }
-.abrir{
-    width: 22vw;;
-}
-.Close {
-    overflow: hidden;
-    width: 0;
-}
+
 
 
 
