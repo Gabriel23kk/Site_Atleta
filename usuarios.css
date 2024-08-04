@@ -156,7 +156,7 @@ main .dono-da-conta img{
     border-top-left-radius: 10px;
     border-bottom-left-radius: 10px;
     border: none;
-    width: 9vw;
+    width: 9.8em;
     font-size: 12px;
     padding-bottom: 1px;
     padding-right: 1px;
@@ -171,7 +171,7 @@ main .dono-da-conta img{
 }
 
 .button-log-out{
-    width: 7.5vw;
+   width: 8em;
    border-bottom-right-radius: 10px;
    border-top-right-radius: 10px;
    border: none;
@@ -195,11 +195,11 @@ main .dono-da-conta img{
 }
 .config-acc{
     position: relative;
-    top: 3vh;
+    top: 17px;
     left: 35px;
     width: 12vw;
     height: 4vh;
-    font-size: 14px;
+    font-size: 2.5vh;
     font-weight: 500;
     border-radius: 10px;
     border: 1px solid #0000ff;
