@@ -11,6 +11,8 @@ menuItem.forEach((item)=>
     item.addEventListener('click',selectlink)
 )
 
+
+// Abrir menu lateral
 var btnExp = document.querySelector('#btn-exp')
 var menuSide = document.querySelector('.side')
 
